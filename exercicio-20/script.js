@@ -8,7 +8,6 @@ const calculate = () => {
     let sum = 0;
     for (let i = Number(init.value); i <= Number(final.value); i++) {
         sum += i;
-        console.log(sum);
     }
 
     return `Resultado: ${sum}`;
